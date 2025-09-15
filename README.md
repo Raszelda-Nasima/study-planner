@@ -52,7 +52,8 @@ Agents are unique compared to LLMs or RAG because they **act, reason, and adapt*
    ```bash
    mkdir study-planner && cd study-planner
    
-2. **Create Virtual Environment**
+2. **Create Virtual Environment:**
+    ```bash
    python -m venv venv
 
 **Activate the Virtual Environment**
