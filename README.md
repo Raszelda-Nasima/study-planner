@@ -53,13 +53,14 @@ Agents are unique compared to LLMs or RAG because they **act, reason, and adapt*
    mkdir study-planner && cd study-planner
    
 2. **Create Virtual Environment**
-- python -m venv venv
+   python -m venv venv
 
 **Activate the Virtual Environment**
 # macOS/Linux
 source venv/bin/activate
 # Windows
 venv\Scripts\activate
+
 
 3. **Install Dependencies**
 pip install -r requirements.txt
