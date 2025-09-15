@@ -68,7 +68,7 @@ venv\Scripts\activate
     ```bash
     pip install -r requirements.txt
 
-5. **Get Your Gemini API key from Google AI Studio**
+4.**Get Your Gemini API key from Google AI Studio**
    
 5.**Create an .env file inside /backend/:**
 
