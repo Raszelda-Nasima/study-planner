@@ -62,6 +62,7 @@ source venv/bin/activate
 # Windows
 venv\Scripts\activate
 
+--- 
 
 3. **Install Dependencies:**
     ```bash
@@ -73,16 +74,22 @@ venv\Scripts\activate
 
    GEMINI_API_KEY=your_api_key_here
 
+---
+
 **🏗 Build the Real-Time Agent**
 - backend/gemini_client.py → handles AI + web search logic
 - backend/app.py → Flask server, API routes
 - templates/index.html → simple Tailwind UI
+
+---
 
 **🧪 How to Test:**
 1. **Navigate to Backend:**
     ```bash
    cd backend
    python app.py
+    
+---
 
 3. Open http://localhost:5000 in your browser.
 
