@@ -63,13 +63,15 @@ source venv/bin/activate
 venv\Scripts\activate
 
 
-3. **Install Dependencies**
-pip install -r requirements.txt
+3. **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
 
-4. **Get Your Gemini API key from Google AI Studio**
+5. **Get Your Gemini API key from Google AI Studio**
    
 5.**Create an .env file inside /backend/:**
-GEMINI_API_KEY=your_api_key_here
+
+   GEMINI_API_KEY=your_api_key_here
 
 **🏗 Build the Real-Time Agent**
 - backend/gemini_client.py → handles AI + web search logic
@@ -78,11 +80,12 @@ GEMINI_API_KEY=your_api_key_here
 
 **🧪 How to Test:**
 1. **Navigate to Backend:**
-cd backend
-python app.py
+    ```bash
+   cd backend
+   python app.py
 
-2. Open http://localhost:5000 in your browser.
+3. Open http://localhost:5000 in your browser.
 
-3. **Try prompts like:**
+4. **Try prompts like:**
 - Make me a 3-week plan to learn Java
 - search: best resources for frontend interviews
